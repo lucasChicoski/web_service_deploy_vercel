@@ -1,0 +1,26 @@
+{
+  "name": "name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "compile": "tsc",
+    "inits": "tsc --init",
+    "build": "tsup src",
+    "start": "node dist/index.js"
+  },
+  "author": "lucas",
+  "license": "ISC",
+  "description": "teste",
+  "dependencies": {
+    "netlify-cli": "^17.37.2",
+    "netlify-lambda-fix": "^1.0.2",
+    "serverless-http": "^3.2.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.2.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "typescript": "^5.6.3"
+  }
+}
